@@ -1,0 +1,19 @@
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+export * from './datepicker-module';
+export * from './calendar';
+export * from './calendar-body';
+export * from './datepicker';
+export * from './datepicker-animations';
+export * from './datepicker-input';
+export * from './datepicker-intl';
+export * from './datepicker-toggle';
+export * from './month-view';
+export * from './year-view';
+export { SatMultiYearView, yearsPerPage, yearsPerRow } from './multi-year-view';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NhdHVybi1kYXRlcGlja2VyL3NyYy9kYXRlcGlja2VyL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7OztHQU1HO0FBRUgsY0FBYyxxQkFBcUIsQ0FBQztBQUNwQyxjQUFjLFlBQVksQ0FBQztBQUMzQixjQUFjLGlCQUFpQixDQUFDO0FBQ2hDLGNBQWMsY0FBYyxDQUFDO0FBQzdCLGNBQWMseUJBQXlCLENBQUM7QUFDeEMsY0FBYyxvQkFBb0IsQ0FBQztBQUNuQyxjQUFjLG1CQUFtQixDQUFDO0FBQ2xDLGNBQWMscUJBQXFCLENBQUM7QUFDcEMsY0FBYyxjQUFjLENBQUM7QUFDN0IsY0FBYyxhQUFhLENBQUM7QUFDNUIsT0FBTyxFQUFDLGdCQUFnQixFQUFFLFlBQVksRUFBRSxXQUFXLEVBQUMsTUFBTSxtQkFBbUIsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxyXG4gKiBAbGljZW5zZVxyXG4gKiBDb3B5cmlnaHQgR29vZ2xlIExMQyBBbGwgUmlnaHRzIFJlc2VydmVkLlxyXG4gKlxyXG4gKiBVc2Ugb2YgdGhpcyBzb3VyY2UgY29kZSBpcyBnb3Zlcm5lZCBieSBhbiBNSVQtc3R5bGUgbGljZW5zZSB0aGF0IGNhbiBiZVxyXG4gKiBmb3VuZCBpbiB0aGUgTElDRU5TRSBmaWxlIGF0IGh0dHBzOi8vYW5ndWxhci5pby9saWNlbnNlXHJcbiAqL1xyXG5cclxuZXhwb3J0ICogZnJvbSAnLi9kYXRlcGlja2VyLW1vZHVsZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vY2FsZW5kYXInO1xyXG5leHBvcnQgKiBmcm9tICcuL2NhbGVuZGFyLWJvZHknO1xyXG5leHBvcnQgKiBmcm9tICcuL2RhdGVwaWNrZXInO1xyXG5leHBvcnQgKiBmcm9tICcuL2RhdGVwaWNrZXItYW5pbWF0aW9ucyc7XHJcbmV4cG9ydCAqIGZyb20gJy4vZGF0ZXBpY2tlci1pbnB1dCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vZGF0ZXBpY2tlci1pbnRsJztcclxuZXhwb3J0ICogZnJvbSAnLi9kYXRlcGlja2VyLXRvZ2dsZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbW9udGgtdmlldyc7XHJcbmV4cG9ydCAqIGZyb20gJy4veWVhci12aWV3JztcclxuZXhwb3J0IHtTYXRNdWx0aVllYXJWaWV3LCB5ZWFyc1BlclBhZ2UsIHllYXJzUGVyUm93fSBmcm9tICcuL211bHRpLXllYXItdmlldyc7XHJcbiJdfQ==

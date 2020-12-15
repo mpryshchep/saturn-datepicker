@@ -1,0 +1,14 @@
+/**
+ * @license
+ * Copyright Google LLC All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/** @docs-private */
+export function createMissingDateImplError(provider) {
+    return Error(`SatDatepicker: No provider found for ${provider}. You must import one of the following ` +
+        `modules at your application root: SatNativeDateModule, MatMomentDateModule, or provide a ` +
+        `custom implementation.`);
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGF0ZXBpY2tlci1lcnJvcnMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zYXR1cm4tZGF0ZXBpY2tlci9zcmMvZGF0ZXBpY2tlci9kYXRlcGlja2VyLWVycm9ycy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7O0dBTUc7QUFFSCxvQkFBb0I7QUFDcEIsTUFBTSxVQUFVLDBCQUEwQixDQUFDLFFBQWdCO0lBQ3ZELE9BQU8sS0FBSyxDQUNSLHdDQUF3QyxRQUFRLHlDQUF5QztRQUN6RiwyRkFBMkY7UUFDM0Ysd0JBQXdCLENBQUMsQ0FBQztBQUNsQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXHJcbiAqIEBsaWNlbnNlXHJcbiAqIENvcHlyaWdodCBHb29nbGUgTExDIEFsbCBSaWdodHMgUmVzZXJ2ZWQuXHJcbiAqXHJcbiAqIFVzZSBvZiB0aGlzIHNvdXJjZSBjb2RlIGlzIGdvdmVybmVkIGJ5IGFuIE1JVC1zdHlsZSBsaWNlbnNlIHRoYXQgY2FuIGJlXHJcbiAqIGZvdW5kIGluIHRoZSBMSUNFTlNFIGZpbGUgYXQgaHR0cHM6Ly9hbmd1bGFyLmlvL2xpY2Vuc2VcclxuICovXHJcblxyXG4vKiogQGRvY3MtcHJpdmF0ZSAqL1xyXG5leHBvcnQgZnVuY3Rpb24gY3JlYXRlTWlzc2luZ0RhdGVJbXBsRXJyb3IocHJvdmlkZXI6IHN0cmluZykge1xyXG4gICAgcmV0dXJuIEVycm9yKFxyXG4gICAgICAgIGBTYXREYXRlcGlja2VyOiBObyBwcm92aWRlciBmb3VuZCBmb3IgJHtwcm92aWRlcn0uIFlvdSBtdXN0IGltcG9ydCBvbmUgb2YgdGhlIGZvbGxvd2luZyBgICtcclxuICAgICAgICBgbW9kdWxlcyBhdCB5b3VyIGFwcGxpY2F0aW9uIHJvb3Q6IFNhdE5hdGl2ZURhdGVNb2R1bGUsIE1hdE1vbWVudERhdGVNb2R1bGUsIG9yIHByb3ZpZGUgYSBgICtcclxuICAgICAgICBgY3VzdG9tIGltcGxlbWVudGF0aW9uLmApO1xyXG59XHJcbiJdfQ==

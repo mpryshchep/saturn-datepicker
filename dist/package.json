@@ -1,0 +1,26 @@
+{
+  "name": "saturn-datepicker",
+  "version": "8.0.6",
+  "repository": "https://github.com/SaturnTeam/saturn-datepicker",
+  "keywords": [
+    "angular",
+    "material",
+    "datepicker",
+    "range datepicker"
+  ],
+  "author": "saturn <saturn@saturn.team>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {},
+  "main": "bundles/saturn-datepicker.umd.js",
+  "module": "fesm2015/saturn-datepicker.js",
+  "es2015": "fesm2015/saturn-datepicker.js",
+  "esm2015": "esm2015/saturn-datepicker.js",
+  "fesm2015": "fesm2015/saturn-datepicker.js",
+  "typings": "saturn-datepicker.d.ts",
+  "metadata": "saturn-datepicker.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
